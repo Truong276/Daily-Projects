@@ -19,3 +19,4 @@ build/
 
 # Environment / secrets
 .env
+out/
