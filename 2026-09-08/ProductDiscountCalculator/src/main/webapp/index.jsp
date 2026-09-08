@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Product Discount Calculator</title>
+</head>
+<body>
+
+<h1>Product Discount Calculator</h1>
+
+<form action="display-discount" method="post">
+
+    <label>Product Description:</label>
+    <input type="text" name="productDescription" required>
+    <br><br>
+
+    <label>List Price:</label>
+    <input type="number" name="listPrice" step="0.01" required>
+    <br><br>
+
+    <label>Discount Percent:</label>
+    <input type="number" name="discountPercent" step="0.01" required>
+    <br><br>
+
+    <input type="submit" value="Calculate Discount">
+
+</form>
+
+</body>
+</html>
